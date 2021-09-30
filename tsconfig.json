@@ -16,6 +16,12 @@
     "importHelpers": true,
     "target": "es2017",
     "module": "es2020",
+    "paths": {
+      "svg-library": [
+        "dist/svg-library/svg-library",
+        "dist/svg-library"
+      ]
+    },
     "lib": [
       "es2018",
       "dom"
